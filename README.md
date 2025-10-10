@@ -16,14 +16,7 @@
 4. **Contagem de Vagas**  
    - Ao detectar carro na entrada → `vagasDisponiveis--`.  
    - Ao detectar carro na saída → `vagasDisponiveis++`.  
-   - Valor exibido no **LCD I2C**, atualizado a cada 500 ms.  
-
----
-
-## 🧩 Estrutura do Código
-- Uso de **função de medição** (`medirDistancia`) para o sensor.  
-- **Controle não bloqueante** com `millis()` para múltiplas tarefas.  
-- Atualização independente da cancela, alerta e display.  
+   - Valor exibido no **LCD I2C**, atualizado a cada 500 ms.   
 
 ---
 
